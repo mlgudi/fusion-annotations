@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "*.fuse": "lua"
+    },
+    "Lua.workspace.library": [
+        "./.types/script"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.workspace.userThirdParty": [
+        "./.types"
+    ],
+    "[lua]": {
+        "Lua.workspace.library": [
+            "./.types/script"
+        ]
+    },
+    "[fuse]": {
+        "Lua.workspace.library": [
+            "./.types/fuse"
+        ],
+        "Lua.diagnostics.globals": [
+            "self",
+            "fu",
+            "Fusion"
+        ]
+    }
+}
